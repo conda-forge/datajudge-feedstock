@@ -20,9 +20,11 @@ requirements:
     - python >=3.8
     - flit-core >=3.2,<4
     - sqlalchemy >=1.4
+    - scipy
   run:
     - python >=3.8
     - sqlalchemy >=1.4
+    - scipy
 test:
   imports:
     - datajudge
