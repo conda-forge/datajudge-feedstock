@@ -1,11 +1,11 @@
-About datajudge
-===============
+About datajudge-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datajudge-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/datajudge/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datajudge-feedstock/blob/main/LICENSE.txt)
 
 Summary: Datajudge allows to assess whether data from database complies with reference data.
 
