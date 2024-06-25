@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
@@ -19,8 +19,6 @@ requirements:
     - pip
     - python >=3.8
     - flit-core >=3.2,<4
-    - sqlalchemy >=1.4
-    - scipy
   run:
     - python >=3.8
     - sqlalchemy >=1.4
