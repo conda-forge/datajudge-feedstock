@@ -25,6 +25,8 @@ requirements:
     - python >=3.8
     - sqlalchemy >=1.4
     - scipy
+    - colorama
+    - pytest
 test:
   imports:
     - datajudge
