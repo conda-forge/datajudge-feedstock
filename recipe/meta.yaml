@@ -1,5 +1,5 @@
 {% set name = "datajudge" %}
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datajudge-{{ version }}.tar.gz
-  sha256: 56d30546589b5aeeef1af5218daf16663480073620d774e336396f7a77527e1d
+  sha256: bf5cf54be6c2ac68c5b4f1b3637c5d772b3b101cf74c231793c77a19ce34b958
 
 build:
   noarch: python
